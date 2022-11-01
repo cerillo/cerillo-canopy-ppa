@@ -1,0 +1,13 @@
+Package: cerillo-canopy
+Maintainer: Cerillo Inc <support@cerillo.com>
+Architecture: all
+Version: 1.2.2-canopy-alpha.1
+Filename: pool/main/c/cerillo-canopy/cerillo-canopy_1.2.2-canopy-alpha.1-1_all.deb
+Size: 10896
+MD5sum: 29ce20a045879e0f7413db09dc7baee6
+SHA1: fec2db917cb5d0562bb70ba21482d74462136a24
+SHA256: d479c520877fb2e066f9dfb260a066fdd4b497f9420454f9653c8b8aaa4ef483
+SHA512: ada849ebb01080d13d0bad070efa0a1ccced559f71d38079d9d62dbf8aa1fbcfb6cfc897c86fc79398a3aed1724eb4a5fe2ab71e7b7fa596f9f8dd03a9d253c1
+Description: Software installed on the Cerillo Canopy
+Homepage: https://cerillo.com
+
