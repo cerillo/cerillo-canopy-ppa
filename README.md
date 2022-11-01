@@ -23,3 +23,14 @@ First timers must
 2. Publish `aptly -architectures=all -gpg-key=canopy-ppa@cerillo.com publish snapshot canopy-snapshot`
 3. Copy the local repo to here `rm -r public;cp -r ~/.aptly/public .`
 4. `git push` and it'll be published to Github Pages shortly.
+
+# Consumer
+```
+curl -s --compressed "https://cerillo.github.io/cerillo-canopy-ppa/KEY.gpg" | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/cerillo-canopy-ppa.gpg >/dev/null
+sudo curl -s --compressed -o /etc/apt/sources.list.d/my_list_file.list "https://cerillo.github.io/cerillo-canopy-ppa/my_list_file.list"
+sudo apt update
+```
+
+Then they can install your packages:
+
+`sudo apt install cerillo-canopy`
