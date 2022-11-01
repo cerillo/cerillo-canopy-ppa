@@ -27,7 +27,7 @@ First timers must
 # Consumer
 ```
 curl -s --compressed "https://cerillo.github.io/cerillo-canopy-ppa/KEY.gpg" | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/cerillo-canopy-ppa.gpg >/dev/null
-sudo curl -s --compressed -o /etc/apt/sources.list.d/my_list_file.list "https://cerillo.github.io/cerillo-canopy-ppa/cerillo-canopy-ppa.list"
+sudo curl -s --compressed -o /etc/apt/sources.list.d/cerillo-canopy-ppa.list "https://cerillo.github.io/cerillo-canopy-ppa/cerillo-canopy-ppa.list"
 sudo apt update
 ```
 
